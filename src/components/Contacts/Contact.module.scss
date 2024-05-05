@@ -1,0 +1,52 @@
+.contact{
+    font-family: sans-serif;
+    width: fit-content;
+    margin: 3vw auto;
+    text-align: center;
+}
+
+.contact_title{
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.contact_title{
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.contact_subtitle{
+    opacity: .7;
+    padding-bottom: 20px;
+}
+
+.contact__mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+.contact_mail_text{
+    font-weight: 700;
+    color: darkblue;
+}
+
+.contact_mail_img{
+    width: 18px;
+    padding-left: 3px;
+}
+
+.contact__line{
+    text-align: center;
+    height: 1px;
+    margin: 20px 100px;
+    background-color: black;
+    opacity: .2;
+}

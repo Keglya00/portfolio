@@ -1,0 +1,58 @@
+.about{
+    display: flex;
+    font-family: sans-serif;
+    max-width: 700px;
+    margin: 17vw auto;
+}
+
+.about__photo{
+    width: 300px;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.about__text{
+    padding-left: 50px;
+}
+
+.about__text_pretitle{
+    padding-top: 5px;
+    font-size: 13px;
+    color: rgb(0, 0, 217);
+    font-weight: 700;
+}
+
+.about__text_title{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.about__text_description{
+    color: rgb(0, 0, 0, 0.8);
+    font-size: 15px;
+}
+
+@media(max-width: 768px){
+    .about{
+        display: block;
+        margin: 40vw auto;
+        text-align: center;
+    }
+    .about__text{
+        padding: 0;
+        text-align: left;
+    }
+    .about__photo{
+        width: 310px;
+    }
+    .about__text_title{
+        font-size: 20px;
+    }
+    .about__text_description{
+        font-size: 14px;
+    }
+    .about__text_pretitle{
+        padding: 15px 0 0 0;
+    }
+}
